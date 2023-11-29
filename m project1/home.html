@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>INTERVIEW QUESTION BIT</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <div class="left"><b>Interview Bit</b> </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Practise</a></li>
+        <li><a href="#">Discuss</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+      <input class="search" type="text" placeholder="search">
+    </div>
+
+  </header>
+  <main>
+    <div class="leftbox">
+      <div class="contain">
+      <span class="purple">WELCOME TO INTERVIEW QUESTIONBIT</span>
+      <br>
+      <h1>We Are Here TO Provide</h1><span id="element"></span></div>
+    </div>
+    <div class="container">
+      <form class="form" action="#">
+        <h2>Sign Up</h2>
+        <div class="input-container">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required placeholder="Enter Username">
+        </div>
+        <div class="input-container">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="Enter E-mail">
+        </div>
+        <div class="input-container">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required placeholder="Enter Password">
+        </div>
+        <button type="submit" ><a href="main.html" class="btn0">Sign Up</a></button>
+        <p>Already have an account? <a href="login2.html">Login</a></p>
+      </form>
+
+
+
+    </div>
+  </main>
+  
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Top Interviews Questions', 'Best Companies', 'Placement Preperation', 'Skill Preperation'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>

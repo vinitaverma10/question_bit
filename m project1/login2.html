@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="left"><b>Interview Bit</b> </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Practise</a></li>
+                <li><a href="#">Discuss</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+            <input class="search" type="text" placeholder="search">
+        </div>
+
+    </header>
+    <main>
+        <div class="leftbox">
+            <div class="contain">
+                <span class="purple">WELCOME TO INTERVIEW QUESTIONBIT</span>
+                <br>
+                <h1>We Are Here TO Provide</h1><span id="element"></span>
+            </div>
+        </div>
+        <div class="container2">
+            <form class="form" action="#">
+                <h2>Login</h2>
+                <div class="input-container">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter Username">
+                </div>
+
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter Password">
+                </div>
+                <button type="submit" href="home.html"><a href="main.html" class="btn0">Login</a></button>
+                <p>You Have TO Create Account <a href="login.html">Sign up</a></p>
+            </form>
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Top Interviews Questions', 'Best Companies', 'Placement Preperation', 'Skill Preperation'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
